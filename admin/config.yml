@@ -1,0 +1,58 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "homepage"
+    label: "Homepage Content"
+    files:
+      - file: "index.html"
+        label: "Homepage"
+        name: "home"
+        fields:
+          - label: "Hero Title"
+            name: "hero_title"
+            widget: "string"
+
+          - label: "Hero Paragraph"
+            name: "hero_paragraph"
+            widget: "text"
+
+          - label: "Our Vision Title"
+            name: "vision_title"
+            widget: "string"
+
+          - label: "Our Vision Text"
+            name: "vision_text"
+            widget: "text"
+
+          - label: "Our Challenge Title"
+            name: "challenge_title"
+            widget: "string"
+
+          - label: "Our Challenge Text"
+            name: "challenge_text"
+            widget: "text"
+
+          - label: "Revolution Title"
+            name: "revolution_title"
+            widget: "string"
+
+          - label: "Revolution Paragraph"
+            name: "revolution_paragraph"
+            widget: "text"
+
+          - label: "CTA Paragraph 1"
+            name: "cta_1"
+            widget: "text"
+
+          - label: "CTA Paragraph 2"
+            name: "cta_2"
+            widget: "text"
+
+          - label: "CTA Button Text"
+            name: "cta_button"
+            widget: "string"
